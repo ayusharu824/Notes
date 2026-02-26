@@ -12,3 +12,14 @@
 -Example
 IEnumerable<int> data = list.Where(x => x > 10);
 
+### Why does `IQueryable` exist?
+Because fetching **millions of records into memory** and then filtering them is **slow and dangerous**.
+`IQueryable` allows:
+
+- Query translation (LINQ → SQL)
+    
+- Server-side execution
+    
+- Better performance
+    
+- Deferred execution

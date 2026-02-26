@@ -21,7 +21,7 @@ Authorization Middleware
   ↓
 Controller / Action
 
-If authentication fails → **401**  
+If authentication fails → **401**
 If authorization fails → **403**
 
 builder.Services.AddAuthentication("Bearer")

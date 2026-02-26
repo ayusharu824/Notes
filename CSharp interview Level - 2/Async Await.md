@@ -18,7 +18,7 @@ What is async ?
 - Async is a modifier that
 	- That allows the use of await
 	- changes how the method is compiled
-	- Makes the method asynchronous- friendly.
+	- Makes the method asynchronous - friendly.
 
 What is await?
 - await means:
@@ -144,6 +144,8 @@ async Task TestAsync()
 Console.WriteLine("A");
 TestAsync();
 Console.WriteLine("B");
+
+A 1 B 2
 
 Quest 2: (same but await TestAsync(); is added in caller instead of TestAsync())
 async Task TestAsync()

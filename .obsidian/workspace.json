@@ -41,30 +41,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSharp interview Level - 2/Factory Pattern.md",
+                "file": "CSharp interview Level - 2/Microservices Architecture/SAGA in .Net Core Microservices.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Factory Pattern"
-            }
-          },
-          {
-            "id": "eff059e3057420d7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CSharp interview Level - 2/Authentication Vs Authorization.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Authentication Vs Authorization"
+              "title": "SAGA in .Net Core Microservices"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -121,7 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 313.5
   },
   "right": {
     "id": "53cedb8c90d756ef",
@@ -137,17 +123,17 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSharp interview Level - 2/ref, out, in Parameters.md",
+                "file": "CSharp interview Level - 2/Microservices Architecture/SAGA in .Net Core Microservices.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for ref, out, in Parameters"
+              "title": "Backlinks for SAGA in .Net Core Microservices"
             }
           },
           {
@@ -212,8 +198,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -226,27 +211,43 @@
       "bases:Create new base": false
     }
   },
-  "active": "eff059e3057420d7",
+  "active": "0eda6ec3dc1bb512",
   "lastOpenFiles": [
-    "CSharp interview Level - 2/Unit of Work.md",
-    "CSharp interview Level - 2/Authentication Vs Authorization.md",
-    "CSharp interview Level - 2/NeedForInjectingDependency.md",
+    "2026-01-10.md",
+    "2026-02-26.md",
     "CSharp interview Level - 2/Factory Pattern.md",
-    "CSharp interview Level - 2/RepositoryPattern(Design Patterns).md",
-    "CSharp interview Level - 2/Multithreading.md",
-    "CSharp interview Level - 2/Async Await.md",
-    "CSharp interview Level - 2/Boxing_Unboxing.md",
-    "CSharp interview Level - 2/Anonymous types & dynamics.md",
-    "New Text Document.txt",
+    "CSharp interview Level - 2/Microservices Architecture/SAGA in .Net Core Microservices.md",
     "CSharp interview Level - 2/Extension Methods.md",
     "CSharp interview Level - 2/Delegates_ Func, Action, Predicate.md",
     "CSharp interview Level - 2/chatgpt chat name.md",
-    "CSharp interview Level - 2/IEnumerable Vs IQueryable Vs IAsyncEnumerable.md",
-    "CSharp interview Level - 2/Value type vs Reference Type.md",
+    "CSharp interview Level - 2/Boxing_Unboxing.md",
+    "CSharp interview Level - 2/Authentication Vs Authorization.md",
+    "CSharp interview Level - 2/Async Await.md",
+    "CSharp interview Level - 2/Anonymous types & dynamics.md",
+    "CSharp interview Level - 2/NetCoreFundamentals/Collections & Generics.md",
+    "CSharp interview Level - 2/NetCoreFundamentals/Auto mapper.md",
+    "CSharp interview Level - 2/NetCoreFundamentals/SOLID/SOLID Principle.md",
+    "CSharp interview Level - 2/NetCoreFundamentals/Oops/Interface Vs Abstract Class.md",
+    "CSharp interview Level - 2/NetCoreFundamentals/Oops/Access Modifiers.md",
+    "CSharp interview Level - 2/NetCoreFundamentals/Oops/4 Pillars of OOPs.md",
+    "CSharp interview Level - 2/DI/Dependency Injection.md",
+    "CSharp interview Level - 2/Coding Questions/Reverse String.md",
+    "CSharp interview Level - 2/NetCoreFundamentals/TPL.md",
+    "CSharp interview Level - 2/Coding Questions",
+    "CSharp interview Level - 2/NetCoreFundamentals/LINQ.md",
+    "Questions for client interview/Explain what authorization is and how it works in .NET Core..md",
+    "CSharp interview Level - 2/NetCoreFundamentals/SOLID",
+    "CSharp interview Level - 2/NetCoreFundamentals/Oops",
+    "CSharp interview Level - 2/Microservices Architecture",
+    "CSharp interview Level - 2/NetCoreFundamentals",
+    "CSharp interview Level - 2/DI",
+    "Questions for client interview/What is API versioning, Explain in detail.md",
+    "CSharp interview Level - 2/Unit of Work.md",
+    "CSharp interview Level - 2/RepositoryPattern(Design Patterns).md",
     "CSharp interview Level - 2/ref, out, in Parameters.md",
+    "Questions for client interview",
+    "New Text Document.txt",
     "CSharp interview Level - 2/Untitled.canvas",
-    "CSharp interview Level - 2/Null-coalescing operator.md",
-    "CSharp interview Level - 2",
-    "Welcome.md"
+    "CSharp interview Level - 2"
   ]
 }
