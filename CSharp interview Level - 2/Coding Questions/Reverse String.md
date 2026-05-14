@@ -7,7 +7,6 @@ public static string ReverseString(string inputString){
         int left = 0, right = chars.Length-1;
         char temp;
         Console.WriteLine(right);
-        
         while(left<right){
             temp = chars[right];
             chars[right] = chars[left];

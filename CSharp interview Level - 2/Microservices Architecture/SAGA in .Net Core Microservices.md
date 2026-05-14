@@ -316,3 +316,44 @@ Compensation Activities (VERY IMPORTANT)
 ## 🔹 Release Inventory
 
 `[FunctionName("ReleaseInventory")] public async Task ReleaseInventory([ActivityTrigger] OrderRequest order) {     // Put stock back }`
+
+
+Question:
+
+so we have 2 saga patterns choreography and orchestration right and choreography works on the principle of event driven like using service bus so suppose service a sends message to service b that a is success then b starts db operation but suppose if service d fails after c then how a and b will undo db operations?
+
+In **Choreography Saga**, services communicate using events through a message broker like:
+
+- Kafka
+- RabbitMQ
+- Azure Service Bus
+
+Each service:
+
+1. Performs its local DB transaction
+2. Commits immediately
+3. Publishes success event
+Example flow:
+```
+A -> OrderCreatedB -> PaymentCompletedC -> InventoryReservedD -> ShipmentFailed
+```
+If a later service fails (e.g., Service D), previous services cannot use SQL rollback because their transactions are already committed.
+Instead, Saga uses:
+```
+Compensating Transactions
+```
+Meaning reverse business actions are executed through failure events.
+Example:
+```
+InventoryReserved -> ReleaseInventoryPaymentCompleted -> RefundPaymentOrderCreated -> CancelOrder
+```
+Rollback happens through events:
+```
+ShipmentFailed event    ↓Inventory releases stock    ↓Payment refunds money    ↓Order gets cancelled
+```
+Important points:
+
+- Saga rollback is business rollback, not DB rollback
+- Compensation logic must be written manually
+- Choreography can become complex because services depend on many events
+- Compensation may also fail, so retries and idempotency are important

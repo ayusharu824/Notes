@@ -35,7 +35,7 @@ Why?
 - One instance per request
 `AddScoped<IService, Service>();`
 Use when:
-- DbContext
+- DbContext              
 - Request-based logic
 - Repository classes
 ### 🔹 Singleton
@@ -51,3 +51,7 @@ Cache (MemoryCache)
 HttpClient (via HttpClientFactory)
 FeatureFlags
 Settings
+
+
+
+

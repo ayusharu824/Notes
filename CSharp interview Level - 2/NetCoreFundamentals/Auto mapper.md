@@ -5,8 +5,6 @@ Nuget Required: AutoMapper.Extensions.Microsoft.DependencyInjection
 define in program.cs
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies);
 
-
-
 first class
 public class EmployeeModel 
 {
